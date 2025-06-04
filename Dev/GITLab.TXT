@@ -1,0 +1,23 @@
+#cấu hình GIT
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+git config --list
+--------------------------------------------------------------------------------
+#Khởi tạo và kết nối với GitLab
+git init (nếu chưa có git)
+git clone <URL-repository> (clone)
+--------------------------------------------------------------------------------
+#Làm việc với Git (Thêm, Xóa, Cập nhật)
+1. Kiểm tra trạng thái file trong repo: git status
+2. Thêm file vào staging area hoặc thêm toàn bộ file: git add <file-name> | git add .
+3. Commit tin nhắn: git commit -m "Mô tả thay đổi" | git commit --amend -m "Mô tả mới"
+4. Xóa file khỏi repository:
+git rm <file-name>
+git commit -m "Xóa file <file-name>"
+--------------------------------------------------------------------------------
+# Đẩy và lấy dữ liệu từ GitLab
+1. Liệt kê các remote repository: git remote -v
+2. Thêm remote repository (nếu chưa có): git remote add origin <URL-repository>
+3. Đẩy code lên GitLab: git push origin <branch-name>
+4. Lấy code mới nhất từ GitLab về máy: git pull origin <branch-name>
+--------------------------------------------------------------------------------
