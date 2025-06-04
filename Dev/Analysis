@@ -1,87 +1,19 @@
 #Cau truc
-@Home
-    1. Front-end:
-        index.              (done)
-        Log_in.             (done)
-        Register.           (done)
-        Forgot_pass.        (done)
-    2. Back-end:            ------
-        Register.           (done)
-        Log_in.             (done)
-        Log_out.            (done)
-        Forgotten.          (done)
-        Search_2(product2). (done)       
-@Admin
-    1. Front-end:
-        List_Product.       (done)
-        List_Account.       (done)
-            #Reader         (done)
-            #Admin          (done)
-        List_Order          (x)
-    2. Back-end:            ------
-        //Product           ------
-        View.               (done)
-        Add.                (done)
-        Update.             (done)
-        Delete.             (done)
-        Search_1(product1). (done)
-        //Account           ------
-        View.               (done)
-        Add.                (done)
-        Update.             (done)
-        Delete.             (done)
-        Search_3().         (x)
-        //Order             ------
-        View.               (done)
-        Update.             (x)
-        Delete.             (x)
-@Reader
-    1. Front-end:
-        Reader_screen.
-            #Product        (done)
-            #Store          (done)
-            #Orders         (done)
-            #Profile        (done)
-    2. Back-end:            ------
-        View.               (done)
-        Order.              (x)
-        Store.              (x)
-        Search_2(product2). (done)
-        Profile.
-            #update         (done)
-            #delete         (done)
 --------------------------------------------------------------------------------------------------------
 #database
-@Role                                                                           (done)
-[ID][role_ID][role_name]
-@Account                                                                        (done)
-[ID][account_name][password][user_ID][role_ID]
-@Profile                                                                        (done)
-[ID][user_ID][full_name][address][date_of_birth][email][number_phone]
-@Category                                                                       (done)
-[ID][category_ID][category_name]
-@Product                                                                        (done)
-[ID][product_name][product_ID][author][URL_imagine][date_of_insert][number_product][category_ID][status]
-@Store                                                                          (done)
-[ID][user_ID][product_ID][status]
-@Order                                                                          (done)
-[ID][user_ID][product_ID][date_of_order][wait_time][deadline][status1][status2]
+@Role							(done)                                                                         
+[ID][role_id][role_name]
+@Account							(done)                                                                   
+[ID][account_name][password][role_id][isActive]
+@Profile							(done)                                                                        
+[ID][account_name][full_name][address][date_of_birth][email][number_phone]
+@Category						(done)                                                                     
+[ID][cat_id][cat_name]
+@Product 						(done)                                                                       
+[ID][product_name][product_id][author][URL_image][date_of_insert][number_product][cat_id][isAvailable]
+@Store							(done)                                                                          
+[ID][product_id][account_name][isOrder]
+@Order							(done)                                                                          
+[ID][product_id][account_name][date_of_order][number_order][wait_time][deadline][isSended][isLate]
 ---------------------------------------------------------------------------------------------------------
-#design idea
-
-6. content_productdetail.
-- for Admin: insert / update / delete                                                   (done)
-- for reader / non-signer: (req login with non-signer) / store detail / order detail    
-
-7. Store(generate\detail)
-    #generate: xem ds store theo ten dang nhap            (done)
-    #detail: xem chi tiet sp trong store                  (x)
-
-8. Order(generate\detail)
-    #generate: xem ds order theo ten dang nhap            (done)
-    #detail: xem chi tiet sp trong order                  (x)          
-
-‐-----------------------------------------
-#Check Data Flow
-1. Clink in index.html -> View index.jsp (non-login interface)                  (done)
-2. from index.jsp -> 
+#design
