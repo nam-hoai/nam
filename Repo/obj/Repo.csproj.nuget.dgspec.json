@@ -1,0 +1,210 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\MON_HOC\\tailieu_PRN212\\SU25\\Assignemnt\\DLMS\\Repo\\Repo.csproj": {}
+  },
+  "projects": {
+    "E:\\MON_HOC\\tailieu_PRN212\\SU25\\Assignemnt\\DLMS\\DAO\\DAO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\MON_HOC\\tailieu_PRN212\\SU25\\Assignemnt\\DLMS\\DAO\\DAO.csproj",
+        "projectName": "DAO",
+        "projectPath": "E:\\MON_HOC\\tailieu_PRN212\\SU25\\Assignemnt\\DLMS\\DAO\\DAO.csproj",
+        "packagesPath": "C:\\Users\\XPS 9550\\.nuget\\packages\\",
+        "outputPath": "E:\\MON_HOC\\tailieu_PRN212\\SU25\\Assignemnt\\DLMS\\DAO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\XPS 9550\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\MON_HOC\\tailieu_PRN212\\SU25\\Assignemnt\\DLMS\\Model\\Model.csproj": {
+                "projectPath": "E:\\MON_HOC\\tailieu_PRN212\\SU25\\Assignemnt\\DLMS\\Model\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\MON_HOC\\tailieu_PRN212\\SU25\\Assignemnt\\DLMS\\Model\\Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\MON_HOC\\tailieu_PRN212\\SU25\\Assignemnt\\DLMS\\Model\\Model.csproj",
+        "projectName": "Model",
+        "projectPath": "E:\\MON_HOC\\tailieu_PRN212\\SU25\\Assignemnt\\DLMS\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\XPS 9550\\.nuget\\packages\\",
+        "outputPath": "E:\\MON_HOC\\tailieu_PRN212\\SU25\\Assignemnt\\DLMS\\Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\XPS 9550\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\MON_HOC\\tailieu_PRN212\\SU25\\Assignemnt\\DLMS\\Repo\\Repo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\MON_HOC\\tailieu_PRN212\\SU25\\Assignemnt\\DLMS\\Repo\\Repo.csproj",
+        "projectName": "Repo",
+        "projectPath": "E:\\MON_HOC\\tailieu_PRN212\\SU25\\Assignemnt\\DLMS\\Repo\\Repo.csproj",
+        "packagesPath": "C:\\Users\\XPS 9550\\.nuget\\packages\\",
+        "outputPath": "E:\\MON_HOC\\tailieu_PRN212\\SU25\\Assignemnt\\DLMS\\Repo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\XPS 9550\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\MON_HOC\\tailieu_PRN212\\SU25\\Assignemnt\\DLMS\\DAO\\DAO.csproj": {
+                "projectPath": "E:\\MON_HOC\\tailieu_PRN212\\SU25\\Assignemnt\\DLMS\\DAO\\DAO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

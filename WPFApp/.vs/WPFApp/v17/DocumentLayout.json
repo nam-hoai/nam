@@ -1,0 +1,80 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\MON_HOC\\tailieu_PRN212\\SU25\\Assignemnt\\DLMS\\WPFApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7A406C-5506-4E88-B3BE-52073B8D95BA}|..\\Repo\\Repo.csproj|e:\\mon_hoc\\tailieu_prn212\\su25\\assignemnt\\dlms\\repo\\categoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7A406C-5506-4E88-B3BE-52073B8D95BA}|..\\Repo\\Repo.csproj|e:\\mon_hoc\\tailieu_prn212\\su25\\assignemnt\\dlms\\repo\\icategoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296A0B7B-1B4C-426C-9BFE-25F020DEC09B}|..\\Service\\Service.csproj|e:\\mon_hoc\\tailieu_prn212\\su25\\assignemnt\\dlms\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296A0B7B-1B4C-426C-9BFE-25F020DEC09B}|..\\Service\\Service.csproj|e:\\mon_hoc\\tailieu_prn212\\su25\\assignemnt\\dlms\\service\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryREPO.cs",
+              "DocumentMoniker": "E:\\MON_HOC\\tailieu_PRN212\\SU25\\Assignemnt\\DLMS\\Repo\\CategoryREPO.cs",
+              "RelativeDocumentMoniker": "..\\Repo\\CategoryREPO.cs",
+              "ToolTip": "E:\\MON_HOC\\tailieu_PRN212\\SU25\\Assignemnt\\DLMS\\Repo\\CategoryREPO.cs",
+              "RelativeToolTip": "..\\Repo\\CategoryREPO.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T09:15:24.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "E:\\MON_HOC\\tailieu_PRN212\\SU25\\Assignemnt\\DLMS\\Service\\CategoryService.cs",
+              "RelativeDocumentMoniker": "..\\Service\\CategoryService.cs",
+              "ToolTip": "E:\\MON_HOC\\tailieu_PRN212\\SU25\\Assignemnt\\DLMS\\Service\\CategoryService.cs",
+              "RelativeToolTip": "..\\Service\\CategoryService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T09:10:17.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "E:\\MON_HOC\\tailieu_PRN212\\SU25\\Assignemnt\\DLMS\\Service\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "..\\Service\\ICategoryService.cs",
+              "ToolTip": "E:\\MON_HOC\\tailieu_PRN212\\SU25\\Assignemnt\\DLMS\\Service\\ICategoryService.cs",
+              "RelativeToolTip": "..\\Service\\ICategoryService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T08:53:05.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICategoryREPO.cs",
+              "DocumentMoniker": "E:\\MON_HOC\\tailieu_PRN212\\SU25\\Assignemnt\\DLMS\\Repo\\ICategoryREPO.cs",
+              "RelativeDocumentMoniker": "..\\Repo\\ICategoryREPO.cs",
+              "ToolTip": "E:\\MON_HOC\\tailieu_PRN212\\SU25\\Assignemnt\\DLMS\\Repo\\ICategoryREPO.cs",
+              "RelativeToolTip": "..\\Repo\\ICategoryREPO.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T08:36:14.532Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

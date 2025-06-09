@@ -168,4 +168,6 @@ select * from Orders
 go
 select * from Stores
 go
---*View by entry*--
+--*View by entities*--
+--Entity: Account --
+--Entity: Product --
