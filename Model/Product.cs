@@ -13,7 +13,8 @@ namespace Model
             Carts = new HashSet<Cart>();
         }
         public Product(string name, string id, string author, string url, 
-            string date, int quantity, bool check) {
+            string date, int quantity,bool check, Category c)
+        {
             this.product_name= name;
             this.product_id= id;
             this.author= author;
@@ -21,6 +22,8 @@ namespace Model
             this.date_of_insert= date;
             this.number_product= quantity;
             this.isAvailable= check;
+            this.category= c;
+           
         }
         public string product_name { get; set; }
         public string product_id { get; set; }

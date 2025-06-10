@@ -153,7 +153,6 @@ insert Stores ([product_id],[account_name]) values
 go
 --====================================================--
 --QUERY: SELECT
---*View all*--
 select * from Role
 go
 select * from Category
@@ -168,6 +167,33 @@ select * from Orders
 go
 select * from Stores
 go
---*View by entities*--
+--====================================================--
+--Customization
+-- Entity:Category --
+select * from Category
+go
 --Entity: Account --
 --Entity: Product --
+--*GET*--
+select p.product_name, p.product_id, p.author, p.URL_image, p.date_of_insert, p.number_product, p.isAvailable,
+		c.cat_id, c.cat_name
+from Products p
+JOIN Category c 
+on p.cat_id = c.cat_id
+go
+--*ADD*--
+--*UPDATE*--
+--*DELET*--
+--*SEARCH*--
+--Entity: Orders --
+--*GET*--
+--*ADD*--
+--*UPDATE*--
+--*DELET*--
+--*SEARCH*--
+--Entity: Cart --
+--*GET*--
+--*ADD*--
+--*UPDATE*--
+--*DELET*--
+--*SEARCH*--
