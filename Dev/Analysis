@@ -1,19 +1,77 @@
 #Cau truc
+1. Front-End
+@LoginWindow
+	*Ref:
+		#AdminWindow
+		#StaffWindow
+		#CustomerWindow
+	*Function
+		Login	<- btn_Login_Click()
+		Exit	<- btn_Close_Click()
+@AdminWindow: Admin Dashboad
+	*Ref:
+		<tab>: StaffList
+		<tab>: ProductList
+		<tab>: Profile
+	*Function:
+		- StaffList
+		Add		<-	btn_Create_Click()
+		Edit	<-	btn_Update_Click()
+		Remove	<-	btn_Delete_Click()
+		- ProductList
+		Add		<-	btn_Create_Click()
+		Edit	<-	btn_Update_Click()
+		Remove	<-	btn_Delete_Click()
+@StaffWindow: Employer Dashboad
+	*Ref:
+		<tab>: ManageUser
+		<tab>: ManageOrder
+		<tab>: ProductList
+		<tab>: Profile
+	*Function:
+		- ManageUser
+		Edit
+		- ManageOrder
+		Edit	<-	btn_ChangeStatus_Click()
+@CustomerWindow: User Dashboad
+	*Ref:
+		<tab>: ProductList
+		<tab>: Order
+		<tab>: Cart
+		<tab>: Profile
+	*Function:
+		- ProductList
+		- Order
+		- Cart
+		- Profile
+2. Back-End
+@Model
+	#
+@DAO
+	#
+@Repo
+	#
+@Service
+	#
+@WPFApp
+	#AdminWindow
+	#StaffWindow
+	#CustomerWindow
 --------------------------------------------------------------------------------------------------------
 #database
-@Role							(done)                                                                         
+@Role																										(done)                                                                         
 [ID][role_id][role_name]
-@Account							(done)                                                                   
+@Account																									(done)                                                                   
 [ID][account_name][password][role_id][isActive]
-@Profile							(done)                                                                        
+@Profile																									(done)                                                                        
 [ID][account_name][full_name][address][date_of_birth][email][number_phone]
-@Category						(done)                                                                     
+@Category																									(done)                                                                     
 [ID][cat_id][cat_name]
-@Product 						(done)                                                                       
+@Product 																									(done)                                                                       
 [ID][product_name][product_id][author][URL_image][date_of_insert][number_product][cat_id][isAvailable]
-@Store							(done)                                                                          
+@Store																										(done)                                                                          
 [ID][product_id][account_name][isOrder]
-@Order							(done)                                                                          
+@Order																										(done)                                                                          
 [ID][product_id][account_name][date_of_order][number_order][wait_time][deadline][isSended][isLate]
 ---------------------------------------------------------------------------------------------------------
 #design
