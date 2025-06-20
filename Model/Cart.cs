@@ -8,7 +8,9 @@ namespace Model
 {
     public partial class Cart
     {
-        public Cart(bool ordered) {
+        public Cart() { }
+        public Cart(bool ordered) : this()
+        {
             this.isOrdered = ordered;
         }
         public virtual Product id { get; set; }

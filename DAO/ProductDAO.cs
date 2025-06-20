@@ -4,37 +4,36 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Model;
-using System.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
+
 
 namespace DAO
 {
     public class ProductDAO
     {
-        public static List<Product> GetProduct()
+        private readonly DBContext _context;
+        // Delegates để thao tác CRUD
+        private DBContext.AddEntity<Product> _addP;
+        private DBContext.RemoveEntity<Product> _removeP;
+        private DBContext.FindEntity<Product> _searchP;
+        private DBContext.GetAllEntity<Product> _getAllProduct;
+        public ProductDAO()
         {
-            string sql = @"
-                select p.product_name, p.product_id, p.author, p.URL_image, p.date_of_insert, p.number_product, p.isAvailable,
-		               c.cat_id, c.cat_name
-                from Products p
-                JOIN Category c 
-                on p.cat_id = c.cat_id";
-            return DbContext.Query(sql, reader => new Product
-            {
-                product_name=reader.GetString(0),
-                product_id=reader.GetString(1),
-                author=reader.GetString(2),
-                URL_image=reader.GetString(3),
-                date_of_insert = reader.GetDateTime(4).ToString("yyyy-MM-dd"),
-                number_product =reader.GetInt32(5),
-                isAvailable=reader.GetBoolean(6),
-                category = new Category(
-                    reader.GetString(7),
-                    reader.GetString(8))
-            });
+            _context = DBContext.Instance;
+            //assign delegate
+            _addP = _context.Add<Product>();
+            _removeP = _context.Delete<Product>();
+            _searchP = _context.Search<Product>();
+            _getAllProduct = _context.GetAll<Product>();
         }
-        public static Product? Search(Product p)
-        public static int Add(Product p)
-        public static int Delate(Product p)
-        public static int Update(Product p)
+        public List<Product> GetProduct()
+        {
+            return _getAllProduct(p=>p.category);
+        }
+        //public static Product? Search(Product p);
+        //public static int Add(Product p);
+        //public static int Delate(Product p);
+        //public static int Update(Product p);
     }
 }

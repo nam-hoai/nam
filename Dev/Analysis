@@ -57,6 +57,7 @@
 	#AdminWindow
 	#StaffWindow
 	#CustomerWindow
+	<file>: appsetting.json
 --------------------------------------------------------------------------------------------------------
 #database
 @Role																										(done)                                                                         

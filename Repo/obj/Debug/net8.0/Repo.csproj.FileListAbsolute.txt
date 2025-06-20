@@ -1,0 +1,6 @@
+E:\MON_HOC\tailieu_PRN212\SU25\Assignemnt\DLMS\Repo\obj\Debug\net8.0\Repo.csproj.AssemblyReference.cache
+E:\MON_HOC\tailieu_PRN212\SU25\Assignemnt\DLMS\Repo\obj\Debug\net8.0\Repo.GeneratedMSBuildEditorConfig.editorconfig
+E:\MON_HOC\tailieu_PRN212\SU25\Assignemnt\DLMS\Repo\obj\Debug\net8.0\Repo.AssemblyInfoInputs.cache
+E:\MON_HOC\tailieu_PRN212\SU25\Assignemnt\DLMS\Repo\obj\Debug\net8.0\Repo.AssemblyInfo.cs
+E:\MON_HOC\tailieu_PRN212\SU25\Assignemnt\DLMS\Repo\obj\Debug\net8.0\Repo.csproj.CoreCompileInputs.cache
+E:\MON_HOC\tailieu_PRN212\SU25\Assignemnt\DLMS\Repo\obj\Debug\net8.0\Repo.sourcelink.json

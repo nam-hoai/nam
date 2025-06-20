@@ -14,7 +14,8 @@ namespace Model
             Carts = new HashSet<Cart>();
         }
         public Account(string name, string pass, string full, string address, 
-            string dob, string email, string phone, string id, bool check) {
+            DateTime dob, string email, string phone, string id, bool check) :this()
+        {
             this.account_name = name;
             this.password = pass;
             this.full_name = full;
@@ -29,7 +30,7 @@ namespace Model
         public string password { get; set; }
         public string? full_name { get; set; }
         public string? address { get; set; }
-        public string? date_of_birth { get; set; }
+        public DateTime? date_of_birth { get; set; }
         public string? email { get; set; }
         public string? number_phone { get; set; }
         public string role_id { get; set; }

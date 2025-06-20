@@ -13,7 +13,7 @@ namespace Model
             Carts = new HashSet<Cart>();
         }
         public Product(string name, string id, string author, string url, 
-            string date, int quantity,bool check, Category c)
+            DateTime date, int quantity,bool check, Category c) :this()
         {
             this.product_name= name;
             this.product_id= id;
@@ -23,13 +23,12 @@ namespace Model
             this.number_product= quantity;
             this.isAvailable= check;
             this.category= c;
-           
         }
         public string product_name { get; set; }
         public string product_id { get; set; }
         public string author { get; set; }
         public string URL_image { get; set; }
-        public string date_of_insert { get; set; }
+        public DateTime date_of_insert { get; set; }
         public int number_product { get; set; }
         public bool isAvailable { get; set; }
         public virtual Category category { get; set; }
